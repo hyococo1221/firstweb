@@ -1,0 +1,75 @@
+$(function(){
+	$("#miller").slideUp(1);
+		$('#1').hover(
+			function(){
+				$("#miller").slideDown(500);
+			},
+			function(){
+				$("#miller").slideUp(500);
+			});
+});
+$(function(){
+	$("#kingfisher").slideUp(1);
+		$('#2').hover(
+			function(){
+				$("#kingfisher").slideDown(500);
+			},
+			function(){
+				$("#kingfisher").slideUp(500);
+			});
+});
+$(function(){
+	$("#pilsner").slideUp(1);
+		$('#3').hover(
+			function(){
+				$("#pilsner").slideDown(500);
+			},
+			function(){
+				$("#pilsner").slideUp(500);
+			});
+});
+$(function(){
+	$("#kozel").slideUp(1);
+		$('#4').hover(
+			function(){
+				$("#kozel").slideDown(500);
+			},
+			function(){
+				$("#kozel").slideUp(500);
+			});
+});
+$(function(){
+	$("#budwesier").slideUp(1);
+		$('#5').hover(
+			function(){
+				$("#budwesier").slideDown(500);
+			},
+			function(){
+				$("#budwesier").slideUp(500);
+			});
+});
+$(function(){
+	$("#stella").slideUp(1);
+		$('#6').hover(
+			function(){
+				$("#stella").slideDown(500);
+			},
+			function(){
+				$("#stella").slideUp(500);
+			});
+});
+$(function(){
+	$("#tiger").slideUp(1);
+		$('#7').hover(
+			function(){
+				$("#tiger").slideDown(500);
+			},
+			function(){
+				$("#tiger").slideUp(500);
+			});
+});
+$(function(){
+	$('#movetotop').on('click', function(){
+		$('html, body').animate({scrollTop:0}, 700);
+	});
+});

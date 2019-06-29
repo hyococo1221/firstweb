@@ -1,0 +1,993 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#header{
+	width: 100%;
+	height:70px;
+	background:#000321;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+#mainNav{
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	position: absolute;
+	z-index: 3;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+#mainNav ul{
+	font-family:'12롯데마트드림Medium';
+	width: 800px;
+	height: 50px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-around;
+	list-style: none;
+	color: #fff;
+	font-weight: bold;
+}
+#mainNav ul li{
+	border-right: 1px solid #fff;
+	width: 160px;
+	height: 48px;
+	font-size: 17px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#mainNav ul li:first-child{
+	border-left: none;
+}
+#mainNav ul li:last-child{
+	border-right: none;
+}
+#mainNav ul li a{
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+#mainNav ul li a:hover{
+	color: #fc0;
+}
+#keyimage{
+	height: 400px;
+	width: 100%;
+	background: url(../images/keyimage3.jpg) bottom center no-repeat;
+}
+#carousel1{
+	background: #000;
+}
+#carousel1 img{
+	width: 100%;
+	height: 400px;
+}
+.event{
+	width: 100%;
+	background: #333;
+	height: 60px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+#introbonne{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 30px 0;
+}
+#introbonne h1{
+	text-shadow: 2px 2px 3px #888;
+	margin-bottom: 25px;
+	font-size: 2.5em;
+}
+#introbonne p{
+	margin-top: 5px;
+	font-size: 17px;
+	font-weight: 500;
+}
+#bonnestyle{
+	width: 100%;
+	height: 350px;
+	background: #000321;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+.contain{
+	width: 1000px;
+	height: 350px;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content{
+	width: 300px;
+	height: 300px;
+	background:#FFF8E4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.pizzabeer{
+	height: 200px;
+	width: 200px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	border: 1px solid #000;
+}
+#bonnestore{
+	height: 600px;
+	width: 100%;
+	display: inline-flex;
+	margin-bottom: 50px;
+}
+.store1{
+	width: 50%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background:url(../images/shop.jpg) center center no-repeat;
+	background-size: cover;
+	
+}
+.store1 button{
+	padding: 0 25px;
+	margin-top: 30px;
+	width: 130px;
+	height: 55px;
+	background:none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	border: 2px solid #fff;
+	-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;  
+}
+.store1 button:hover{
+	color: #fc0;
+	background: #fff;
+}
+.store2{
+	width: 50%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background:url(../images/shop6.jpg) center center no-repeat;
+	background-size: cover;
+}
+.store2 button{
+	padding: 0px 30px;
+	margin-top: 30px;
+	width: 130px;
+	height: 55px;
+	background:none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	border: 2px solid #fff;
+	-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;  
+}
+.store2 button:hover{
+	color: #fc0;
+	background: #fff;
+}
+#beer{
+	height: 400px;
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+	align-items: center;
+}
+.toggle{
+	font-family:"12롯데마트드림Bold", "12롯데마트드림Medium";
+	font-size: 14px;
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	z-index: 3;
+	text-align: right;
+	color: #fc0;
+	font-weight: 800;
+	padding-top: 30px;
+	padding-right:20px;
+
+}
+#miller{
+	left:2%;
+	background: url(../images/miller.png) center center no-repeat;
+}
+#kingfisher{
+	left: 16%;
+	background: url(../images/kingpisher.png) center center no-repeat;
+}
+#pilsner{
+	left: 30.5%;
+	background: url(../images/pilsner.png) center center no-repeat;
+}
+#kozel{
+	background: url(../images/kozel-1.png) center center no-repeat;
+}
+#budwesier{
+	right: 30.5%;
+	background: url(../images/budwesier.png) center center no-repeat;
+}
+#stella{
+	right: 16%;
+	background: url(../images/stella.png) center center no-repeat;
+}
+#tiger{
+	right: 2%;
+	background: url(../images/tiger.png) center center no-repeat;
+}
+#blacklogo{
+	width:100%;
+	height: 100px;
+	position: absolute;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -150px;
+	z-index: 3;
+}
+#hr{
+	width:900px;
+	border-top: 1px solid;
+}
+#sitemap{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.sns{
+	margin-top: 20px;
+	width: 200px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+.site{
+	font-family:"12롯데마트행복Bold";
+	font-weight: bolder;
+	width:1000px;
+	height: 200px;
+	margin-top: 20px;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.address{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 230px;
+	height: 100px;
+}
+.address h1{
+	color: #00054f;
+	margin-bottom: 20px;
+}
+.address p{
+	font-family: "나눔고딕", "나눔바른고딕";
+	font-weight: normal;
+	font-size: 13px;
+}
+.contact{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 230px;
+	height: 100px;
+}
+.contact h1{
+	color: #00054f;
+	margin-bottom: 20px;
+}
+.contact p{
+	font-size: 13px;
+	font-family: "나눔고딕", "나눔바른고딕";
+	font-weight: normal;
+}
+.franchise{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 230px;
+	height: 100px;
+}
+.franchise h1{
+	color: #00054f;
+	margin-bottom: 20px;
+}
+.franchise p{
+	font-size: 13px;
+	font-family: "나눔고딕", "나눔바른고딕";
+	font-weight: normal;
+}
+#footer{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ccc;
+	background: #000321;
+	font-size: 14px;
+}
+#footer a{
+	color: #ccc;
+	text-decoration: none;
+}
+.info{
+	display: flex;
+	width: 600px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*brandstory*/
+#keyimage1{
+	height:300px;
+	width: 100%;
+	background: url(../images/keyimage2.jpg) bottom center no-repeat;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+.keyimagedark{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+	width: 100%;
+	height: 300px;
+	background: rgba(0,0,0,0.67);
+	
+}
+.keyimagedark font:first-child{
+	font-family: "12롯데마트드림Bold", "12롯데마트드림Medium";
+	font-size: 3.5em;
+}
+.keyimagedark font:last-child{
+	font-weight: 500;
+}
+
+#bonnestory1{
+	width: 100%;
+	height: 400px;
+	margin-bottom: 67px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#bonnestory1 h1{
+	font-size: 3em;
+}
+#bonnestory2{
+	width: 100%;
+	height: 200px;
+	background: url(../images/shop4-1.jpg) center center no-repeat;
+	margin-bottom: 40px;
+	
+}
+.text{
+	width: 100%;
+	height: 200px;
+	background: rgba(0,0,0,0.60);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.text font:first-child{
+	font-family: "12롯데마트드림Bold", "12롯데마트드림Medium";
+	font-size: 3em;
+}
+.text p{
+	color: #fc0;
+	font-weight: 500;
+}
+#bonnestory3{
+	width: 100%;
+	height: 400px;
+	margin-bottom: 67px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#bonnestory3 h1{
+	font-size: 3em;
+}
+/*brnadstory END*/
+
+/*franchise*/
+#keyimage2{
+	height:300px;
+	width: 100%;
+	background: url(../images/shop4-1.jpg) center center no-repeat;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+#movetotop{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background:#000321;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin-top: -65px;
+	font-size: 20px;
+	border: none;
+	
+}
+#movetotop a{
+	color: #fff;
+	text-decoration: none;
+}
+#franchise1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+#franchise1 h1{
+	color:#00054f;
+	font-weight: bolder;
+	font-size: 3em;
+}
+#franchise1 p{
+	font-weight: bold;
+	margin-bottom: 0;
+	color: #000;
+}
+#franchise1 img{
+	margin: 40px 0;
+}
+#franchise2{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 100px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.concept{
+	width: 300px;
+	height: 280px;
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.concept:first-child{
+	margin: 0;
+}
+.concept img{
+	margin-bottom: 20px;
+}
+.concept p{
+	margin-bottom: 0;
+	color: #000;
+	font-weight: 900;
+}
+#franchise3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+#franchise3 h1{
+	color:#00054f;
+	font-weight: bolder;
+	font-size: 3em;
+}
+#franchise3 p{
+	margin-bottom: 0;
+	color: #000;
+	font-weight: bold;
+}
+#franchise3 font{
+	font-weight: bold;
+	font-size: 20px;
+}
+#franchise4 tr td:first-child{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #F5F5F5;
+	font-weight: bold;
+	font-size: 16px;
+}
+#franchise4 tr td:last-child{
+	text-align: left;
+}
+#franchise4{
+	text-align: center;
+}
+#franchise4 #btn{
+	font-family: "나눔고딕", "나눔바른고딕";
+	margin: 40px 0;
+	width: 150px;
+	height: 55px;
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	border: none;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+#franchise4 #btn:hover{
+	background: #fc0;
+	color: #000;
+}
+#text{
+	width: 550px;
+	height: 60px;
+	border: none;
+	padding-left: 15px;
+}
+#franchise4 #cbx{
+	margin-left: 15px;
+}
+/*franchise END*/
+
+/*beer*/
+#keyimage3{
+	height:300px;
+	width: 100%;
+	background: url(../images/keyimage6.jpg) center center no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+#subnav{
+	width: 100%;
+	height: 50px;
+	background: #333;
+}
+#subnav ul{
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+#subnav ul li{
+	margin-left: 30px;
+	font-family: "12롯데마트드림Bold", "12롯데마트드림Medium";
+	font-weight: bold;
+	font-size: 17px;
+}
+#subnav ul li:first-child{
+	margin: 0;
+}
+#subnav ul li a{
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+#subnav ul li a:hover{
+	color: #fc0;
+}
+#beer1{
+	width: 100%;
+	height: 1300px;
+	background: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.beerlist{
+	width: 860px;
+	height: 1300px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.beerlist ul{	
+	width: 830px;
+	height: 350px;
+	display: inline-flex;
+	list-style: none;
+	justify-content: flex-start;
+	align-items: center;
+}
+.beerlist ul:last-child{
+	margin-bottom: 0px;
+}
+.beerlist ul li{
+	background: #fff;
+	width: 250px;
+	height: 350px;
+	border: 1px solid #444;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.beerlist ul li:nth-child(2){
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.beerlist ul a{
+	font-family: "12롯데마트드림Bold", "12롯데마트드림Medium";
+	color: #000;
+	text-decoration: none;
+}
+.beertext{
+	width: 250px;
+	height: 95px;
+	margin-top: 3px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.beerlist ul li img{
+	border-right: 1px inset #444;
+	border-left: 1px inset #444;
+	border-bottom: 1px inset #ccc;
+}
+/*beer END*/
+
+/*beerdetail*/
+#beerdetail{
+	width: 100%;
+	height: 500px;
+	background: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.beerkeyimage{
+	width: 100%;
+	height: 400px;
+	background: url(../images/DoubleDragon2.jpg) center center no-repeat;
+}
+.beerinfo{
+	height:300px;
+	width: 900px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.beersubject{
+	width: 900px;
+	height: 80px;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	flex-direction: column;
+	font-family: "12롯데마트드림Bold", "12롯데마트드림Medium";
+	font-size: 17px;
+	font-weight: bold;
+}
+.subject{
+	width: 900px;
+	display: inline-flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
+.beertxt{
+	margin-top: 30px;
+	width: 900px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+.txt{
+	font-size: 16px;
+}
+/*beerdetail END*/
+
+/*store*/
+#mapstyle{
+	height: 700px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #eee;
+}
+.mapsubject{
+	height:100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.api{
+	border-right: 1px inset #ccc;
+}
+.map{
+	width: 900px;
+	height: 405x;
+	display: inline-flex;
+	border: 1px solid #444;
+	justify-content: space-between;
+	background: #fff;
+}
+.apiinfo{
+	width: 480px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.name{
+	margin-bottom: 10px;
+}
+.address2{
+	height: 160px;
+	width: 460px;
+	padding-top:10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+#booking{
+	background: #333;
+	border: none;
+	color: #fff;
+	font-size: 13px;
+	padding: 10px 15px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+#booking:hover{
+	background: #FC0;
+	color: #333;
+	font-weight: bold;
+}
+/*store END*/
+
+/*signin&login*/
+#member{
+	background: #eee;
+	width: 100%;
+	height:auto;
+	display: flex;
+	padding: 100px 0;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.loginhead{
+	width: 900px;
+	height:170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.loginhead font{
+	font-weight: bold;
+	font-size: 2em;
+	color: #000;
+	margin-top: 10px;
+	letter-spacing: 5px;
+}
+.loginhead p{
+	font-size: 13px;
+}
+.history{
+	width: 900px;
+	margin-top: 60px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	border-bottom: 1px solid;
+	font-size: 12px;
+}
+.login{
+	width: 300px;
+	height: 400px;
+	margin-top: 30px;
+}
+.logintxt{
+	width:300px;
+	height: 50px;
+}
+.logintxt h3{
+	font-weight: bold;
+}
+.logintxt p{
+	font-size: 13px;
+	margin-top: -10px;
+}
+#loginform{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+#loginform input{
+	height: 40px;
+	margin-bottom: 5px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	padding-left: 5px;
+}
+#loginform button{
+	height: 40px;
+	margin-bottom: 5px;
+}
+#loginform #submit{
+	background: #fc0;
+	border: none;
+	font-weight: bold;
+	color: #fff;
+}
+#loginform #reset{
+	background: #fff;
+	border: 1px solid #ccc;
+}
+.memberhead{
+	height: 90px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+.memberhead h2{
+	font-weight: bold;
+}
+.signhead{
+	width: 900px;
+	height:150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.signhead font{
+	font-weight: bold;
+	font-size: 2em;
+	color: #000;
+	margin-top: 10px;
+	letter-spacing: 5px;
+}
+.signhead p{
+	font-size: 13px;
+}
+.signtxt{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	font-size: 13px;
+}
+#memberinput{
+	font-size: 13px;
+	line-height: 35px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+#memberinput input{
+	height: 30px;
+	margin-left: 5px;
+	width: 100px;
+	font-size: 13px;
+}
+#memberinput .solar{
+	width: 10px;
+	margin-top: -20px;
+}
+#memberinput .search{
+	border-radius: 5px;
+	border: none;
+	background: #444;
+	color: #fff;
+	height: 30px;
+	line-height: 26px;
+	padding: 3px 15px;
+	font-size: 10px;
+	margin-left: 10px;
+}
+.button{
+	width: 150px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+.button button{
+	padding: 3px 12px;
+	font-size: 12px;
+	border: none;
+	background: #444;
+	color: #fff;
+	font-weight: 900;
+	border-radius: 10px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.button button:hover{
+	color: #444;
+	background: #fc0;
+}
+/*signin&login END*/
